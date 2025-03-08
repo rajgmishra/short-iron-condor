@@ -34,7 +34,7 @@
 
 <script>
     async function loadCSV() {
-        const response = await fetch('updated_data.csv');
+        const response = await fetch('updated_pnl_data.csv');
         const data = await response.text();
 
         const rows = data.trim().split('\n');
